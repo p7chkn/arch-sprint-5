@@ -1,0 +1,128 @@
+version: "3.1"
+stories:
+  - story: Приветствие и запрос помощи
+    steps:
+      - intent: приветствие
+      - action: utter_greet
+      - intent: запрос_помощи
+      - action: utter_help
+
+  - story: Информация о проекте
+    steps:
+      - intent: описание_архитектуры
+      - action: utter_describe_architecture
+
+  - story: Выбор технологии для проекта
+    steps:
+      - intent: выбор_технологий
+      - action: utter_choose_tech_stack
+
+  - story: Микросервисная архитектура
+    steps:
+      - intent: микросервисы
+      - action: utter_microservices
+
+  - story: Монолитная архитектура
+    steps:
+      - intent: монолит
+      - action: utter_monolith
+
+  - story: Интеграция систем
+    steps:
+      - intent: интеграция_систем
+      - action: utter_integration
+
+  - story: Обеспечение безопасности
+    steps:
+      - intent: безопасность
+      - action: utter_security
+
+  - story: Повышение производительности
+    steps:
+      - intent: производительность
+      - action: utter_performance
+
+  - story: Масштабируемость системы
+    steps:
+      - intent: масштабируемость
+      - action: utter_scalability
+
+  - story: Обеспечение отказоустойчивости
+    steps:
+      - intent: отказоустойчивость
+      - action: utter_fault_tolerance
+
+  - story: Внедрение DevOps
+    steps:
+      - intent: DevOps
+      - action: utter_devops
+
+  - story: Контейнеризация приложений
+    steps:
+      - intent: контейнеризация
+      - action: utter_containerization
+
+  - story: Выбор базы данных
+    steps:
+      - intent: выбор_базы_данных
+      - action: utter_database_choice
+
+  - story: Методологии разработки
+    steps:
+      - intent: методологии_разработки
+      - action: utter_methodologies
+
+  - story: Использование архитектурных паттернов
+    steps:
+      - intent: архитектурные_паттерны
+      - action: utter_architecture_patterns
+
+  - story: Документация проекта
+    steps:
+      - intent: документация
+      - action: utter_documentation
+
+  - story: Облачные технологии
+    steps:
+      - intent: облачные_технологии
+      - action: utter_cloud_technologies
+
+  - story: Принятие архитектурных решений
+    steps:
+      - intent: архитектурные_решения
+      - action: utter_architectural_decisions
+
+  - story: Практики микросервисной архитектуры
+    steps:
+      - intent: микросервисная_архитектура
+      - action: utter_microservice_architecture
+
+  - story: Оркестрация микросервисов
+    steps:
+      - intent: оркестрация_микросервисов
+      - action: utter_microservice_orchestration
+
+  - story: Мониторинг микросервисов
+    steps:
+      - intent: мониторинг_микросервисов
+      - action: utter_microservice_monitoring
+
+  - story: Использование сервисной сети
+    steps:
+      - intent: сервисная_сеть
+      - action: utter_service_mesh
+
+  - story: Безопасность микросервисов
+    steps:
+      - intent: безопасность_микросервисов
+      - action: utter_microservice_security
+
+  - story: Тестирование микросервисов
+    steps:
+      - intent: тестирование_микросервисов
+      - action: utter_microservice_testing
+
+  - story: Обеспечение отказоустойчивости микросервисов
+    steps:
+      - intent: отказоустойчивость_микросервисов
+      - action: utter_microservice_resilience

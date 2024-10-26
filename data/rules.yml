@@ -1,0 +1,136 @@
+version: "3.1"
+rules:
+  - rule: Приветствие
+    steps:
+      - intent: приветствие
+      - action: utter_greet
+
+  - rule: Прощание
+    steps:
+      - intent: прощание
+      - action: utter_goodbye
+
+  - rule: Запрос помощи
+    steps:
+      - intent: запрос_помощи
+      - action: utter_help
+
+  - rule: Описание архитектуры
+    steps:
+      - intent: описание_архитектуры
+      - action: utter_describe_architecture
+
+  - rule: Выбор технологий
+    steps:
+      - intent: выбор_технологий
+      - action: utter_choose_tech_stack
+
+  - rule: Микросервисы
+    steps:
+      - intent: микросервисы
+      - action: utter_microservices
+
+  - rule: Монолит
+    steps:
+      - intent: монолит
+      - action: utter_monolith
+
+  - rule: Интеграция систем
+    steps:
+      - intent: интеграция_систем
+      - action: utter_integration
+
+  - rule: Безопасность
+    steps:
+      - intent: безопасность
+      - action: utter_security
+
+  - rule: Производительность
+    steps:
+      - intent: производительность
+      - action: utter_performance
+
+  - rule: Масштабируемость
+    steps:
+      - intent: масштабируемость
+      - action: utter_scalability
+
+  - rule: Отказоустойчивость
+    steps:
+      - intent: отказоустойчивость
+      - action: utter_fault_tolerance
+
+  - rule: DevOps
+    steps:
+      - intent: DevOps
+      - action: utter_devops
+
+  - rule: Контейнеризация
+    steps:
+      - intent: контейнеризация
+      - action: utter_containerization
+
+  - rule: Выбор базы данных
+    steps:
+      - intent: выбор_базы_данных
+      - action: utter_database_choice
+
+  - rule: Методологии разработки
+    steps:
+      - intent: методологии_разработки
+      - action: utter_methodologies
+
+  - rule: Архитектурные паттерны
+    steps:
+      - intent: архитектурные_паттерны
+      - action: utter_architecture_patterns
+
+  - rule: Документация
+    steps:
+      - intent: документация
+      - action: utter_documentation
+
+  - rule: Облачные технологии
+    steps:
+      - intent: облачные_технологии
+      - action: utter_cloud_technologies
+
+  - rule: Архитектурные решения
+    steps:
+      - intent: архитектурные_решения
+      - action: utter_architectural_decisions
+
+  - rule: Микросервисная архитектура
+    steps:
+      - intent: микросервисная_архитектура
+      - action: utter_microservice_architecture
+
+  - rule: Оркестрация микросервисов
+    steps:
+      - intent: оркестрация_микросервисов
+      - action: utter_microservice_orchestration
+
+  - rule: Мониторинг микросервисов
+    steps:
+      - intent: мониторинг_микросервисов
+      - action: utter_microservice_monitoring
+
+  - rule: Сервисная сеть
+    steps:
+      - intent: сервисная_сеть
+      - action: utter_service_mesh
+
+  - rule: Безопасность микросервисов
+    steps:
+      - intent: безопасность_микросервисов
+      - action: utter_microservice_security
+
+  - rule: Тестирование микросервисов
+    steps:
+      - intent: тестирование_микросервисов
+      - action: utter_microservice_testing
+
+  - rule: Отказоустойчивость микросервисов
+    steps:
+      - intent: отказоустойчивость_микросервисов
+      - action: utter_microservice_resilience
